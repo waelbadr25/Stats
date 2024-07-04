@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: hsl(233, 47%, 7%) ;
+}
+.container{
+   
+}
+.card{
+    width: 60%;
+    
+    background-color:hsl(244, 38%, 16%);
+    position:absolute;
+    left:20%;
+    bottom:20%;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:"content" "image";
+    overflow: hidden;
+    border-radius: 1%;
+}
+
+img{
+width: 100%;
+height: 100%;
+
+}
+
+.uper{
+    color: chartreuse;
+    z-index: 20;
+    
+}
+.content{
+    grid-area: content;
+    margin: 12%;
+    display: grid;
+    color: aliceblue;
+}
+.content span{
+    color:hsl(277, 64%, 61%);
+}
+.numbers{
+    margin-top: 50px;
+    display:grid;
+    grid-template-columns: repeat(3,30%);
+
+}
